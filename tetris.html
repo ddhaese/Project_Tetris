@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Tetris</title>
+	<script type="text/javascript" src="tetris_data.js"></script>
+	<script type="text/javascript" src="tetris.js"></script>
+	<link rel="stylesheet" type="text/css" media="screen" href="tetris.css">
+</head>
+
+<body onload="init();">
+	<div id="game">
+		<img id="restart" onclick="location.reload();"
+			src="https://cdn0.iconfinder.com/data/icons/basic-ui-elements-plain/461/012_restart-512.png" width="50px"
+			height="50px"></img>
+		<canvas id="myCanvas" width="640px" height="640px"></canvas>
+		<div id="lines">lines: 0</div>
+	</div>
+</body>
+
+</html>
