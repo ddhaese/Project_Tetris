@@ -220,4 +220,4 @@ function jumpDown() {
   while (!collides(t_block, t_x, t_y + 1)) {
     t_y++;
   }
-}
+} 
